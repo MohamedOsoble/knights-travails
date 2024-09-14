@@ -49,7 +49,7 @@ function knightTravails(start, end){
                 // Check if position found
                 if(positionFound(newPos, end)){
                     path.push(newPos)
-                    console.log(`You made it in ${path.length - 1} moves! Here's your path:`);
+                    console.log(`=> You made it in ${path.length - 1} moves! Here's your path:`);
                     path.forEach(pos => console.log(pos));
                     return path;
                 }
